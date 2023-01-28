@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" /><!--Inclusion of CSS and related-->
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="img/wave.png"/> <!--Icon for webpage-->
+    <title>Mission04 Page</title>
+</head>
+<body class="vsc-initialized">
+    <header class="bg-dark py-5">
+        <div class="container px-4 px-lg-5 my-5 text-center text-white">
+            <h1>Jay Lowry</h1><br /><br />
+            <p>I hope to finally solidify my web development skills so that I actually remember what I'm doing and what I need to do.</p><!--What I hope to gain from this class-->
+        </div>
+    </header>
+    <br />
+    <div id="photo">
+        <img src="img/20220604_201850.jpg" /> <!--Picture of me-->
+    </div>
+    <br />
+    <br />
+
+    <div class="text-center justify-content-center">
+        <ol> <!--List of Jobs-->
+            <p>Jobs I would want to get after I graduate</p>
+            <li>Almost anything with 'architect' in the name (IT architect, systems architect, etc.)</li>
+            <li>Project Manager</li>
+            <li>Software Engineer</li>
+        </ol>
+
+        <h2>Grade Calculator</h2> <!--Exactly what it says-->
+        <form>
+            <label>Assignments: </label>
+            <input id="assign" /><br />
+            <label>Group Projects: </label>
+            <input id="group" /><br />
+            <label>Quizzes</label>
+            <input id="quiz" /><br />
+            <label>Midterm: </label>
+            <input id="mt" /><br />
+            <label>Final Exam: </label>
+            <input id="final" /><br />
+            <label>INTEX: </label>
+            <input id="intex" /><br />
+            <input id="button_send" type="button" value="Calculate" />
+        </form>
+
+        <p>Grade:</p>
+        <!--Calculated value from js-->
+        <p id="result"></p>
+    </div>
+    
+
+    <!--Inclusion of JS and related-->
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+    <script src="js/calculator.js"></script>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <p>Wave icons created by Freepik - Flaticon</p> <!--Attribution-->
+</body>
+</html>
