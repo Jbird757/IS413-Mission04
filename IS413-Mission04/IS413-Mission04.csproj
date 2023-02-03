@@ -5,4 +5,12 @@
     <RootNamespace>IS413_Mission04</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="wwwroot\index.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+
 </Project>
