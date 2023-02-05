@@ -9,8 +9,4 @@
     <Content Remove="wwwroot\index.html" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
-
 </Project>
